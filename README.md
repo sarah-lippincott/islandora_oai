@@ -60,6 +60,7 @@ Some example requests are as follows:
 * `*/oai2?verb=ListMetadataFormats`
 * `*/oai2?verb=ListIdentifiers&metadataPrefix=oai_dc`
 * `*/oai2?verb=ListRecords&metadataPrefix=oai_dc`
+* `*/oai2?verb=ListRecords&metadataPrefix=oai_dc`
 
 Services like WorldCat expect links back to the object such as a Handle URL. If your metadata doesn't have this there are two approaches that can be used. Self transforming XSLTs can be used to add specific elements tailored to individual needs. However, there is options in configuration to append on URL values to the XML output of OAI. Each metadata prefix has an individual set of configuration. If selected, a user can define where the object URL will get appended in the output returned.
 
